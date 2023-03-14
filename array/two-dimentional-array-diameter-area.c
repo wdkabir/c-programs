@@ -1,14 +1,17 @@
 #include <stdio.h>
 
-float findArea(float length) {
+float findArea(float length)
+{
     return length * length;
 }
 
-float findDiameter(float length) {
+float findDiameter(float length)
+{
     return length * sqrt(2);
 }
 
-int main() {
+int main()
+{
     float length, area, diameter;
     printf("Enter the length of the square: ");
     scanf("%f", &length);
@@ -18,4 +21,3 @@ int main() {
     printf("The diameter of the square is: %f\n", diameter);
     return 0;
 }
-
