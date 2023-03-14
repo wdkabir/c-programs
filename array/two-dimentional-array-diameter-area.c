@@ -1,4 +1,7 @@
 #include <stdio.h>
+/*Write a multi-function C program to find the area and diameter of a square. The
+value of length must be taken from the user in the main function and should be then
+passed to the two functions for area and diameter calculation.*/
 
 float findArea(float length)
 {
