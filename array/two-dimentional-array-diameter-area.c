@@ -16,7 +16,7 @@ float findDiameter(float length)
 int main()
 {
     float length, area, diameter;
-    printf("Enter the length of the square: ");
+    printf("Enter the Length of the square: ");
     scanf("%f", &length);
     area = findArea(length);
     diameter = findDiameter(length);
